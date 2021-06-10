@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/landing-e-commerce/static/css/main.17b46ba4.chunk.css",
+    "main.js": "/landing-e-commerce/static/js/main.01e1f7d8.chunk.js",
+    "main.js.map": "/landing-e-commerce/static/js/main.01e1f7d8.chunk.js.map",
+    "runtime-main.js": "/landing-e-commerce/static/js/runtime-main.bb3fe068.js",
+    "runtime-main.js.map": "/landing-e-commerce/static/js/runtime-main.bb3fe068.js.map",
+    "static/js/2.d0db2023.chunk.js": "/landing-e-commerce/static/js/2.d0db2023.chunk.js",
+    "static/js/2.d0db2023.chunk.js.map": "/landing-e-commerce/static/js/2.d0db2023.chunk.js.map",
+    "static/js/3.eff9c27f.chunk.js": "/landing-e-commerce/static/js/3.eff9c27f.chunk.js",
+    "static/js/3.eff9c27f.chunk.js.map": "/landing-e-commerce/static/js/3.eff9c27f.chunk.js.map",
+    "index.html": "/landing-e-commerce/index.html",
+    "static/css/main.17b46ba4.chunk.css.map": "/landing-e-commerce/static/css/main.17b46ba4.chunk.css.map",
+    "static/js/2.d0db2023.chunk.js.LICENSE.txt": "/landing-e-commerce/static/js/2.d0db2023.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb3fe068.js",
+    "static/js/2.d0db2023.chunk.js",
+    "static/css/main.17b46ba4.chunk.css",
+    "static/js/main.01e1f7d8.chunk.js"
+  ]
+}
