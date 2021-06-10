@@ -11,6 +11,7 @@ import Footer from './components/Footer'
                             // data.map(x=> <Category key={x.id} name={x.category}/>)
                             // .filter((value, index, self) => self.indexOf(value) === index)
 function App() {
+    const IS_IN_GITHUB_PAGES = true;
     const data = [
         {id:1,title:"Panquecas",description:"Panquecas com mel", category:["café da manhã"], price:8.00, img:"/images/pancakes.jpeg"},
         {id:2,title:"Espaguete",description:"Macarrão espaguete ao molho rústico e bacons", category:["massa","almoço"], price:14.99, img:"/images/pasta-1.jpg"},
@@ -25,6 +26,9 @@ function App() {
         {id:11,title:"açaí",description:"Acompanha granola e banana fatiada", category:["sobremesas"], price:5.00, img:"/images/acai.jpg"},
         {id:12,title:"café preto",description:"200ml", category:["café da manhã"], price:2.00, img:"/images/cafe.jpg"},
     ]
+    if(IS_IN_GITHUB_PAGES){
+        data.forEach(c=>c.img="/landing-e-commerce"+c.img)
+    }
     const [produtos, setProdutos] = useState(data)
 
     function setCategory(category){
