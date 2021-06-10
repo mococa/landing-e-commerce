@@ -1,3 +1,17 @@
+# About this project
+
+I really wanna get better at React and I'm coming with these simple projects so I understand better how it works.
+
+This one does not fetch any data, I mock the DB.
+
+I'm happy with the result and I hope it's well done.
+
+If you want to try it out, I'll put a link available on the *About* section.
+
+Made from scratch, in about 2h30min as my first React App in my machine. I am used to use Replit, but I wanted to try something different this time.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,148 @@
+.header {
+    padding: 80px;
+    background-color: var(--theme-2);
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.main {
+    gap: 30px;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+
+.main-section {
+    display: flex;
+    flex-flow: column;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.menu-title {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menu-title::after {
+    content: "";
+    background: var(--theme);
+    height: 5px;
+    width: 170px;
+}
+
+.category-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.product-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.product-row {
+    min-width: calc(50% - 2*20px + 30px - 5px - 2*10px);
+    display: flex;
+    flex-flow: row;
+    flex: 0 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 0px 13px -3px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.product-row section.info {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    gap: 5px;
+}
+
+.product-row img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+}
+
+.product-row section:nth-of-type(1) {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.product-row:hover>section img {
+    height: 103%;
+}
+
+.product-row section.info header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    gap: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dcdada;
+}
+
+.product-row section.info .price {
+    color: var(--green);
+}
+
+.cat-select {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cat-select::after {
+    content: "";
+    background: var(--theme);
+    height: 3px;
+    margin-top: 2px;
+    width: 50%;
+    animation: cat-select-anim 300ms ease;
+    animation-fill-mode: forwards;
+}
+
+.footer {
+    padding: 20px 80px;
+    background-color: black;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.footer a h2 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes cat-select-anim {
+    0% {
+        width: 50%;
+    }
+    100% {
+        width: 100%
+    }
+}
